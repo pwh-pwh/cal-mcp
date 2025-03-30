@@ -2,6 +2,14 @@
   "name": "cal-mcp",
   "module": "index.ts",
   "type": "module",
+  "version": "1.0.0",
+  "description": "A MCP server for evaluating mathematical expressions",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "keywords": ["ai", "math", "expression-evaluator", "mcp", "bun"],
+  "author": "coderpwh",
+  "license": "MIT",
   "private": true,
   "devDependencies": {
     "@types/bun": "latest"
