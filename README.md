@@ -1,4 +1,5 @@
 # Cal Server
+[![smithery badge](https://smithery.ai/badge/@pwh-pwh/cal-mcp)](https://smithery.ai/server/@pwh-pwh/cal-mcp)
 
 ## 项目简介
 
@@ -26,7 +27,15 @@
 - 确保已安装 [Bun](https://bun.sh/) 运行时（推荐最新版本）。
 
 ## 安装
+### Installing via Smithery
 
+To install cal-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@pwh-pwh/cal-mcp):
+
+```bash
+npx -y @smithery/cli install @pwh-pwh/cal-mcp --client claude
+```
+
+### Manual Installation
 1. 克隆项目仓库：
    ```bash
    git clone <仓库地址>
