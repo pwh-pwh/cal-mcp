@@ -1,17 +1,11 @@
-# Smithery.ai configuration
 startCommand:
   type: stdio
   configSchema:
     # JSON Schema defining the configuration options for the MCP.
-    {}
+    type: object
+    properties: {}
   commandFunction:
-    # A function that produces the CLI command to start the MCP on stdio.
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
     |-
-    (config) => ({
-      "command": "bun",
-      "args": [
-        "run","index.ts"
-      ],
-      "env": {
-      }
-    })
+    (config) => ({ command: 'bun', args: ['run', 'index.ts'] })
+  exampleConfig: {}
