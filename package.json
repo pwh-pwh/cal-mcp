@@ -2,11 +2,13 @@
   "name": "cal-mcp",
   "module": "index.ts",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A MCP server for evaluating mathematical expressions",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "bun run index.ts"
+    "start": "bun run index.ts",
+    "build": "bun build index.ts --outdir ./dist --target node",
+    "prepublishOnly": "npm run build"
   },
   "keywords": ["ai", "math", "expression-evaluator", "mcp", "bun"],
   "author": "coderpwh",
