@@ -1,10 +1,10 @@
 import { Parser } from 'expr-eval';
-import { FastMCP } from "fastmcp";
+import { FastMCP, type TextContent } from "fastmcp";
 import { z } from "zod";
 
 const server = new FastMCP({
     name: "Cal Server",
-    version: "1.0.0",
+    version: "1.0.5",
 });
 
 server.addTool({
@@ -42,17 +42,24 @@ server.addTool({
     }),
     execute: async (args) => {
         let result = batchGetDateByTimestamp(args.tsList);
-        let ct = result.map(item => ({
+        let ct: TextContent[] = result.map(item => ({
             type: "text",
             text: item
         }))
         return {
-            content: [
-              { type: "text", text: "First message" },
-              { type: "text", text: "Second message" },
-            ],
+            content: ct,
           };
-        // return String(batchGetDateByTimestamp(args.tsList));
+    },
+});
+
+server.addTool({
+    name: "getNow",
+    description: "Get the current timestamp",
+    parameters: z.object({
+
+    }),
+    execute: async (args) => {
+        return String(getNow());
     },
 });
 
@@ -67,6 +74,10 @@ function getDateByTimestamp(ts: number) {
 
 function batchGetDateByTimestamp(tsList: number[]) {
     return tsList.map(timestamp => getDateByTimestamp(timestamp));
+}
+
+function getNow() {
+    return Date.now();
 }
 
 server.start({

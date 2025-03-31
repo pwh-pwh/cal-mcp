@@ -2,7 +2,7 @@
   "name": "cal-mcp",
   "module": "index.ts",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A MCP server for evaluating mathematical expressions",
   "bin": {
     "cal-mcp": "./dist/index.js"
