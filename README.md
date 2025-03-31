@@ -35,6 +35,19 @@ To install cal-mcp for Claude Desktop automatically via [Smithery](https://smith
 npx -y @smithery/cli install @pwh-pwh/cal-mcp --client claude
 ```
 
+### mcp客户端配置
+```json
+"cal-mcp": {
+      "name": "计算",
+      "description": "",
+      "isActive": true,
+      "command": "bunx",
+      "args": [
+        "cal-mcp"
+      ]
+    }
+```
+
 ### Manual Installation
 1. 克隆项目仓库：
    ```bash
