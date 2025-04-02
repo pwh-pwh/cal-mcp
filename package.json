@@ -2,11 +2,17 @@
   "name": "cal-mcp",
   "module": "index.ts",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
+    "module": "dist/index.js",
+  "main": "dist/index.js",
   "description": "A MCP server for evaluating mathematical expressions",
   "bin": {
     "cal-mcp": "./dist/index.js"
   },
+    "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "start": "bun run index.ts",
     "build": "bun build index.ts --outdir ./dist --target node",
