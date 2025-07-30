@@ -1,6 +1,10 @@
 # Cal Server
 [![smithery badge](https://smithery.ai/badge/@pwh-pwh/cal-mcp)](https://smithery.ai/server/@pwh-pwh/cal-mcp)
 
+<a href="https://glama.ai/mcp/servers/@pwh-pwh/cal-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@pwh-pwh/cal-mcp/badge" alt="Cal Server MCP server" />
+</a>
+
 ## 项目简介
 
 `Cal Server` 是一个基于 `FastMCP` 框架构建的简单数学表达式计算服务，使用 Bun 运行时环境。它利用 `expr-eval` 库解析和计算用户输入的数学表达式，并通过标准输入输出（stdio）与外界交互。该项目旨在提供一个轻量、高效的计算工具，支持基本数学运算和内置常量。
@@ -74,8 +78,6 @@ npx -y @smithery/cli install @pwh-pwh/cal-mcp --client claude
     - 基本运算：`2 + 2` → `4`
     - 使用常量：`PI * 2` → `6.283185307179586`
     - 复杂表达式：`E ^ 2 + 1` → `8.38905609893065`
-
-
 
 ## 注意事项
 
