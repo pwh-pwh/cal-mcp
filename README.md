@@ -1,4 +1,5 @@
 # Cal Server
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/pwh-pwh/cal-mcp)](https://archestra.ai/mcp-catalog/pwh-pwh__cal-mcp)
 [![smithery badge](https://smithery.ai/badge/@pwh-pwh/cal-mcp)](https://smithery.ai/server/@pwh-pwh/cal-mcp)
 
 <a href="https://glama.ai/mcp/servers/@pwh-pwh/cal-mcp">
