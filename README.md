@@ -85,3 +85,8 @@ npx -y @smithery/cli install @pwh-pwh/cal-mcp --client claude
 - 输入的表达式必须是有效的数学表达式，否则可能抛出错误。
 - 服务当前仅支持通过 `stdio` 交互。
 - 项目使用 Bun 运行时，确保命令与 Bun 兼容。
+
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/pwh-pwh-cal-mcp).
+
