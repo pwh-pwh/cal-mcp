@@ -1,6 +1,6 @@
 # Cal Server
 [![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/pwh-pwh/cal-mcp)](https://archestra.ai/mcp-catalog/pwh-pwh__cal-mcp)
-[![smithery badge](https://smithery.ai/badge/@pwh-pwh/cal-mcp)](https://smithery.ai/server/@pwh-pwh/cal-mcp)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.pwh-pwh/cal-mcp)](https://lightnow.ai/servers/io.github.pwh-pwh/cal-mcp)
 
 <a href="https://glama.ai/mcp/servers/@pwh-pwh/cal-mcp">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@pwh-pwh/cal-mcp/badge" alt="Cal Server MCP server" />
